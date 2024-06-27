@@ -1,0 +1,30 @@
+{
+  "name": "create-oak-bun",
+  "description": "npm init template for a Bun application using oak & oak-routing-ctrl",
+  "version": "1.0.0",
+  "main": "./lib/main.js",
+  "bin": {
+    "create-oak-bun": "lib/main.js"
+  },
+  "exports": {
+    ".": "./lib/main.js"
+  },
+  "scripts": {
+    "dr": "npm publish --dry-run",
+    "pub": "npm i && npm publish"
+  },
+  "dependencies": {
+    "init-package-json": "^6.0.3"
+  },
+  "license": "MIT",
+  "keywords": [
+    "oak",
+    "oak-routing-ctrl",
+    "nodejs",
+    "typescript",
+    "decorator",
+    "api",
+    "scaffold",
+    "bun"
+  ]
+}
