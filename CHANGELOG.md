@@ -1,3 +1,19 @@
+## [1.2.0] - 2024-07-14
+
+### Added
+
+- template code to support OpenAPI Spec serving
+- template test code to cover OpenAPI Spec serving
+- `npm start` script
+
+### Changed
+
+- library upgrade (`@dklab/oak-routing-ctrl@^0.8.6`)
+
+### Fixed
+
+- better typing for the sample test spec file
+
 ## [1.1.0] - 2024-07-14
 
 ### Added
