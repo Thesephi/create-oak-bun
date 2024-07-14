@@ -1,23 +1,23 @@
 console.log('scaffolding project in', dirname, '...')
 
 module.exports = {
-  "name": prompt("package name", "my-oak-bun", (pgkName) => pgkName),
-  "version": prompt("version", "1.0.0", (v) => v),
-  "description": prompt("description", undefined, (desc) => desc),
-  "author": prompt("author", undefined, (person) => person),
+  "name": yes ? "my-oak-bun" : prompt("package name", "my-oak-bun", (pgkName) => pgkName),
+  "version": yes ? "1.0.0" : prompt("version", "1.0.0", (v) => v),
+  "description": yes ? undefined : prompt("description", undefined, (desc) => desc),
+  "author": yes ? undefined : prompt("author", undefined, (person) => person),
   "type": "module",
   "module": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "bun test",
   },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "dependencies": {
-    "@dklab/oak-routing-ctrl": "npm:@jsr/dklab__oak-routing-ctrl@^0.7.4",
+    "@dklab/oak-routing-ctrl": "npm:@jsr/dklab__oak-routing-ctrl@^0.8.4",
     "@oak/oak": "npm:@jsr/oak__oak@^16.1.0"
   }
 }
