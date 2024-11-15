@@ -15,10 +15,10 @@ module.exports = {
     "@types/bun": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.6.2"
+    "typescript": "^5.6.3"
   },
   "dependencies": {
-    "@dklab/oak-routing-ctrl": "npm:@jsr/dklab__oak-routing-ctrl@^0.11.0",
-    "@oak/oak": "npm:@jsr/oak__oak@^17.0.0"
+    "@dklab/oak-routing-ctrl": "npm:@jsr/dklab__oak-routing-ctrl@^0.12.1",
+    "@oak/oak": "npm:@jsr/oak__oak@^17.1.3"
   }
 }
