@@ -1,7 +1,7 @@
 {
   "name": "create-oak-bun",
   "description": "npm init template for a Bun application using oak & oak-routing-ctrl",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "main": "./lib/main.js",
   "bin": {
     "create-oak-bun": "lib/main.js"
@@ -15,6 +15,9 @@
   },
   "dependencies": {
     "init-package-json": "^6.0.3"
+  },
+  "repository": {
+    "url": "https://github.com/Thesephi/create-oak-bun.git"
   },
   "license": "MIT",
   "keywords": [
